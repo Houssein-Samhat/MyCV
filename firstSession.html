@@ -7,8 +7,45 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="icon" href="./logo.png">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.label {
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.green {background-color: #04AA6D;}
+.blue {background-color: #2196F3;} 
+.red {background-color: #f44336;}
+.column{
+float: left;}
+.left, .right{
+width: 25%;}
+.middle{
+width: 50%;}
+
+.col-container {
+  display: table;
+  width: 100%;
+  margin-top:30px;
+  margin-left:10px;
+  margin-bottom:30px;
+}
+.col {
+  margin-bottom:15px;
+  display: table-cell;
+}
+img {
+  border-radius: 200px;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; font-size:35px; transition: 0.5s;}
+a:active { text-decoration: none; }
+
 </style>
 </head>
 <body class="w3-light-grey">
@@ -26,7 +63,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-display-container">
           <img src="MyPic.png" style="width:100%" alt="ME">
           <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Houssein Samhat</h2>
+            <h2 style="font-family: serif">Houssein Samhat</h2>
           </div>
         </div>
         <div class="w3-container">
@@ -51,7 +88,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
           </div>
-
+		  <p>Mobile Application Development</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">96%</div>
+          </div>
           <br>
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
@@ -70,6 +110,45 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <br>
         </div>
       </div><br>
+	  <!--------------------------------------------------->
+	  <div class="w3-white w3-text-grey w3-card-4">
+	  <div class="w3-container">
+	  <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>COMPETENCIES</b></p>
+	  <div class = "col-container">
+	    <div  class = "col">
+	  <span class="label green">Success</span>
+	  <span class="label blue">Team Working</span>
+	  </div>
+	  </div>
+	  <div class = "col-container">
+	  <div  class = "col">
+	  <span class="label blue">Empathy</span>
+      <span class="label red">Patience</span>
+      <span class="label green">Active Listening</span>
+	  </div>
+	  </div>
+	  <div class = "col-container">
+	  <div  class = "col">
+      <span class="label blue">Positive Attitude</span>
+	  <span class="label green">Phone Skills</span>
+	  </div>
+	  </div>
+	  <div class = "col-container">
+	  <div  class = "col">
+	  <span class="label green">Resolving Conflict</span>
+	  <span class="label red">Itercom</span>
+	  <span class="label blue">HubSpot</span>
+	  </div>
+	  </div>
+	  </div>
+	  <hr>
+	  <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>INTERESTS</b></p>
+	  <p style ="margin-left: 10px" class="w3-large"><b><i class="fa fa-book fa-fw w3-margin-right w3-text-teal"></i>Reading</b></p>
+	  <p style ="margin-left: 10px" class="w3-large"><b><i class="fa fa-male fa-fw w3-margin-right w3-text-teal"></i>GYM</b></p>
+	  <p style ="margin-left: 10px" class="w3-large"><b><i class="	fa fa-leaf fa-fw w3-margin-right w3-text-teal"></i>Hiking</b></p>
+	  <p style ="margin-left: 10px" class="w3-large"><b><i class="fa fa-plane fa-fw w3-margin-right w3-text-teal"></i>Travelling</b></p>
+	  <p style ="margin-left: 10px" class="w3-large"><b><i class="	fa fa-music fa-fw w3-margin-right w3-text-teal"></i>Music</b></p>
+	  </div>
 
     <!-- End Left Column -->
     </div>
@@ -82,19 +161,19 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Front End Developer </b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2022 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>I Always Try to build an amazing websites that shows the user all his needs in easy mode with so much interactions</p>
+          <p>I Always Try to build an amazing websites that shows the user all his needs in easy mode with so much interactions.</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / </b></h5>
+          <h5 class="w3-opacity"><b>Web Developer</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2022</h6>
-          <p>For my Experience in BackEnd I built different applications with for different domains .</p>
+          <p>For my Experience in BackEnd I built different appllications for different domains in professional work.</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Data Entry / Beirut Rafic Harir`s Airprot</b></h5>
+          <h5 class="w3-opacity"><b>Data Entry / Beirut Rafic Harir`s Airport</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2021 - Apr 2022</h6>
-          <p>Getting Information from people and sort it into dataBase  to and move it to another Server... </p><br>
+          <p>Getting Information from people and sort it into DataBase to and move it another Server... </p><br>
         </div>
       </div>
 
@@ -115,8 +194,41 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Coursera</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022</h6>
-          <p>Getting Deep in Website Development With Johns Hopkins University.</p><br>
+          <p>Getting Deep in Website Development With Johns Hopkins University (Online Course`s).</p><br>
         </div>
+      </div>
+	  <div class="w3-container w3-card w3-white w3-margin-top">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>List Of Courses I Learned :</h2>
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>C language </b></h5>
+			<p>As it Was considered as the mother of the Languages,It`s important to have All the Skills in Programing using C Language AND that`s why i get it in so much serious face to be so much strong to program using it.</p>
+          </div>
+		  <hr>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Java programming Languauge</b></h5>
+		  <p>This Course was Taken as An OOP Language As I Work JavaFX with it while Covering GUI Course.</p>
+        </div>
+		<hr>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>DataBase I & II</b></h5>
+		  <p>By Ending these Two Courses I Earned all the needs to work with Creating inserting and getting data From DataBase and So much different ways which make student professional worker with DataBase.</p><br>
+        </div>
+		<hr>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Python</b></h5>
+		  <p>Pythonn is the Most useful Programing Language in security and one of the most important laguauges to Program. </p>
+        </div>
+		<hr>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Operating System I && II</b></h5>
+		  <p>Those Courses Examines the important problems in Operating System design and implementation,which provides an established, convenient,and efficient interface between user programs and the bare hardware of the computer on which they run,Especially Memory...</p>
+        </div>
+		<hr>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Artificial Intelligence</b></h5>
+		  <p>Course From Huawei, With Official Certificate.</p>
+        </div>
+		<hr>
       </div>
 
     <!-- End Right Column -->
@@ -130,12 +242,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
   <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity" target="_blank"></i>&nbsp;&nbsp;
+  <a href="#" class="fa fa-facebook-official w3-hover-opacity" target="_blank"></a>&nbsp;&nbsp;
   <a href="http://www.instagram.com/housseinsamhat/" class="fa fa-instagram w3-hover-opacity" target="_blank"></a>&nbsp;&nbsp;
-  <i class="fa fa-snapchat w3-hover-opacity"></i>&nbsp;&nbsp;
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>&nbsp;&nbsp;
-  <a href= "https://twiter.com/houssein_samhat?t=wxmHIJ2CqehhQ0nN16wg-w&s=09" class="fa fa-twitter w3-hover-opacity" target="_blank"></a>&nbsp;&nbsp;
-  <i class="fa fa-linkedin w3-hover-opacity"></i><br>
+  <a href="#" class="fa fa-snapchat w3-hover-opacity"></a>&nbsp;&nbsp;
+  <a href="#" class="fa fa-pinterest-p w3-hover-opacity"></a>&nbsp;&nbsp;
+  <a href= "#" class="fa fa-twitter w3-hover-opacity" target="_blank"></a>&nbsp;&nbsp;
+  <a href="#" class="fa fa-linkedin w3-hover-opacity"></a><br><br>
   <i>copyright &copy; with Houssein Samhat 2022</i>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
